@@ -10,7 +10,7 @@ const sendEmail = async ({ to, subject, html }) => {
     const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
 
     const sendSmtpEmail = {
-      sender: { name: "DBN", email: "dbnemails@gmail.com" },
+      sender: { name: "DBN", email: "destinybynumberrs@gmail.com" },
       to: [{ email: to }],
       subject,
       htmlContent: html,
